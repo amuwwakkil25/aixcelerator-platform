@@ -1,0 +1,55 @@
+Build the Business Discovery Module for AIXcelerator.
+
+This module automatically scans businesses via URL input and generates comprehensive business profiles for AI agent recommendations.
+
+## Core Requirements
+
+**Input**: Company URL
+**Output**: Structured business profile with taxonomy, pain points, and automation opportunities
+
+## Key Components to Build
+
+### 1. ScraperWorker Service
+- Web scraping with Puppeteer/Browserless
+- Content extraction and cleaning
+- Dynamic content handling
+- Rate limiting and error handling
+
+### 2. EnrichmentService
+- Clearbit/Clay integration for company data
+- Employee count, revenue, funding data
+- Technology stack detection
+- Contact information discovery
+
+### 3. TaxonomyEngine
+- OpenAI + Qdrant for business classification
+- Industry categorization
+- Service offering analysis
+- Pain point identification
+- Automation opportunity scoring
+
+## Technical Stack
+- Frontend: React + TypeScript + TailwindCSS
+- Backend: FastAPI + Supabase
+- Scraping: Puppeteer/Browserless
+- Enrichment: Clearbit, Clay APIs
+- AI: OpenAI GPT-4 + Qdrant vector DB
+- Storage: Supabase PostgreSQL
+
+## User Experience
+1. User enters company URL
+2. Real-time scanning progress with status updates
+3. Visual business profile generation
+4. Taxonomy visualization with industry mapping
+5. Pain point analysis with automation scores
+6. Export to agent recommendation engine
+
+## Key Features
+- Real-time scanning progress
+- Visual business profile cards
+- Industry taxonomy visualization
+- Pain point heatmaps
+- Automation opportunity scoring
+- Integration with agent recommendation module
+
+Build a production-ready interface with beautiful animations, real-time updates, and comprehensive business analysis capabilities.
