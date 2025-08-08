@@ -1,0 +1,4 @@
+similarity_threshold: 0.75
+model_name: all-MiniLM-L6-v2
+output_format: txt
+cover_letter_template: templates/cover_letter.txt
