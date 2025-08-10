@@ -93,4 +93,13 @@ tmp/
 temp/
 
 # Bolt specific
-.bolt/
+.bolt
+# JobFlow Agent artifacts
+resumes/*
+jobs/*
+matches/*
+submissions/*
+!resumes/.gitkeep
+!jobs/.gitkeep
+!matches/.gitkeep
+!submissions/.gitkeep

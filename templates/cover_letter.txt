@@ -1,0 +1,6 @@
+Dear {company},
+
+I am excited to apply for the {job_title} role. With my experience in {skills}, I believe I am a strong fit for this position.
+
+Best regards,
+{candidate_name}
